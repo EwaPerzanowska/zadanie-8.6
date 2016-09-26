@@ -12,7 +12,7 @@ console.log(text);
 
 console.log(text.length);
 
-var halfText = text.slice(0,45)
+var halfText = text.substring(text.length/2)
 
 console.log(halfText)
 
